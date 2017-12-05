@@ -1286,6 +1286,14 @@ h1 {
 .weta-logo img{
     margin-left: 5%;
 }    
+
+.quote{
+    width: 40%;
+}    
+
+.quote-credit{
+    width: 100%;
+}    
 .ceo{
     width: 30%;
 } 
@@ -1385,8 +1393,16 @@ h1 {
 }  
 .weta-logo img{
     margin-left: 5%;
+} 
+.quote{
+    width: 40%;
+}    
+
+.quote-credit{
+    width: 100%;
 }    
 .ceo{
+    width: 30%;
 } 
 .ceo img{
     width: 100%;
