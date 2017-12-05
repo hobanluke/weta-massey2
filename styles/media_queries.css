@@ -1,0 +1,1265 @@
+@media screen and (min-width: 0px) and (max-width: 369px) {
+
+}
+@media screen and (min-width: 370px) and (max-width: 412px) {
+
+.header{
+    height: 50px;
+    overflow: hidden;
+}    
+    
+.image-logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+}
+    
+.logo{
+    display: none;
+    visibility: none;
+}
+
+.contact{
+    float: right;
+    right: 0px;
+    margin-top: 20px;
+    line-height: 10px;
+    font-size: 10px;
+    width: 225px;
+}
+
+}
+@media screen and (min-width: 413px) and (max-width: 499px) {
+    
+h1 {
+    line-height: 51px;
+    font-size: 45px;
+}    
+h2 {
+    letter-spacing: -0.005em;
+    line-height: 34px;
+    font-size: 27px;
+}
+
+h3 {
+    letter-spacing: -0.002em;
+    line-height: 13px;
+    font-size: 11px;
+}
+
+h4 {
+    font-family: "Neue Haas Grotesk Text Pro", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.001em;
+    line-height: 26px;
+    font-size: 22px;
+    color: #777;
+}  
+q {
+    line-height: 25px;
+    font-size: 20px;
+}   
+.quote-credit h3{
+    letter-spacing: -0.002em;
+    line-height: 13px;
+    font-size: 11px;
+}
+.wrapper{
+    width: 100vw;
+}    
+.image-logo{
+    float: left;
+    margin-left: 15px;
+}
+    
+.logo{
+    display: none;
+    visibility: none;
+}
+
+.contact{
+
+  
+}
+
+
+.carousel-cell {
+    width: 75%;
+/*
+    border: 2px solid #222;
+    border-width: 0px 0px 0px 1px; 
+*/
+}
+    
+.heading{
+    width: 90%;
+    margin-left: 15px;
+    bottom: 85px;
+}    
+.flickity-page-dots {
+    
+    bottom: 34px;
+    right: 20px;
+/*
+    display: none;
+    visibility: none;
+*/
+}
+.social{
+    width: 100%;
+    margin-left: 30px;
+    bottom: 32px;  
+}
+    
+.social img{
+    height: 30px;
+    margin-top: -10px;
+    
+} 
+.social a:nth-of-type(3){
+    margin-right: 80px;
+    top: 40px;
+    float: right;
+    display: none;
+}   
+    
+.fade{
+    opacity: 1;
+}  
+    
+.weta-logo img{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 200px;
+    float: right;
+    display: none;
+}
+
+.quote{
+    margin-top: 50px;
+    width: 88%;
+    margin-left: 30px;
+    display: block;
+    position: relative;
+    float: left;
+}  
+
+.quote-credit{
+    width: 460px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    float: left;
+}
+   
+.ceo{
+    display: none;
+    width: 80%;
+    left: -10%;
+/*    float: left;*/
+} 
+.ceo img{
+    width: 100%;
+}    
+.carousel2 {
+    width: 100%;
+    height: 420px;
+} 
+.carousel-item  {
+    width: 110%;
+    height: 100%;
+}    
+.carousel-item  img {
+    width: 160%;
+    margin-left: -60%; 
+  } 
+    
+.shadow {
+    opacity: 0.5;
+}
+.call-to-action-copy{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    width: 86%;
+    padding-bottom: 45px;
+    z-index: 2;
+}
+.call-to-action-copy h2{
+    color: #a89778;
+}    
+    
+.call-to-action-copy p{
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 0px;
+    color: #777;
+}    
+.unique-offering img{
+    width: 100%;
+    border: 2px solid #a89778;
+    border-width: 1px 0px 0px 0px;     
+}
+
+.unique-offering-copy{
+    width: 95%;
+    left: 15px;
+    margin-top: 0px;
+}
+    
+.unique-offering-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+.Industry{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+.Industry p{
+    width: 385px;
+}    
+
+.dropdown-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+    
+.bootcamp{
+    width: calc(100% - 30px);
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    padding-left: 15px;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;     
+}
+
+.supervisor{
+    width: calc(100% - 30px);
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    margin-left: 15px;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;       
+} 
+    
+.internship{
+    width: calc(100% - 30px);
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    margin-left: 15px;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;       
+}      
+  
+.bootcamp-dropdown{
+    height: 2930px;
+}
+    
+.application{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}    
+    
+.domestic-students{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}   
+
+.international-students{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}    
+    
+.applying{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}
+.advisor-1{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+} 
+.advisor-2{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}   
+.advisor-3{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}      
+
+.weta-workshop-copy{
+    width: 95%;
+    left: 15px;
+    margin-top: 0%;
+}   
+    
+.weta-workshop-copy p{
+    width: 90%;
+}    
+ 
+.controls .progress {
+	width: 82%;
+} 
+    
+.three-video-container{
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 0px;
+
+} 
+    
+.small-video-container{
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 0;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;
+}    
+    
+.small-video-container2{
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+    margin-left: 0%;
+    padding-bottom: 25px;
+    padding-right: 0;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;
+}     
+    
+.small-video-container3{
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+    margin-left: 0%;
+    padding-bottom: 75px;
+    padding-right: 0;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;
+}     
+
+.massey {
+    padding-bottom: 50px;
+}
+    
+.massey-copy{
+    position: relative;
+    margin-top: 0px;
+    left: 15px;
+    width: 90%;
+}
+        
+.massey-copy h2{
+    margin-top: 15px;
+    color: #a89778;
+}
+.massey-copy p{
+    width: 96%;
+    color: #777;
+}
+    
+.learn-more a{
+    margin-left: 0px; 
+}
+ 
+footer{
+    width:100%;
+    margin-left: 15px;
+} 
+.footer-container{
+    margin-left: 0%;
+}
+    
+.footer-contact{
+    width: 90%;
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 0px;
+    padding-top: 15px;
+    top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #333;
+    border-width: 0px 0px 1px 0px;
+}    
+    
+.footer-mail a{
+    float: right;
+    margin-right: 0px;
+} 
+    
+.footer-mail img{
+    float: right;
+    margin-left: 25px;
+    margin-right: 0px;
+} 
+    
+.footer-contact h4:nth-of-type(1){
+    width: 100%;
+}    
+    
+.footer-contact h3{
+    line-height: 15px;
+} 
+    
+.footer-links a:nth-of-type(1){
+    margin-right: 71px;
+    float: right;
+}
+
+.footer-links a:nth-of-type(2){
+    margin-right: 133px;
+    float: right;
+}
+
+.footer-links a:nth-of-type(3){
+    margin-right: 198px;
+    float: right;
+}    
+    
+.legal{
+    margin-left: 0px;
+/*
+    bottom: 10px;
+    float: left;
+*/
+    margin-top: 35px;
+    padding-top: 0px;
+    border: 1px solid #333;
+    border-width: 0px 0px 0px 0px;
+}    
+.logos img{
+    margin-top: 5px;
+    position: relative;
+    float: right;
+    height: 100px;
+    padding-left: 25px;
+    
+} 
+.logos img:nth-of-type(1){
+    margin-top: 170px;
+    
+}     
+.logos img:nth-of-type(2){
+    margin-top: 170px;
+    padding-bottom: 10px;
+    
+}         
+.logos img:nth-of-type(3){
+    margin-top: 5px;
+    position: relative;
+    float: right;
+    clear: both;
+    height: 100px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    
+}     
+    
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    
+ 
+h1 {
+    line-height: 61px;
+    font-size: 50px;
+}    
+h2 {
+    letter-spacing: -0.005em;
+    line-height: 34px;
+    font-size: 27px;
+}
+
+h3 {
+    letter-spacing: -0.002em;
+    line-height: 13px;
+    font-size: 11px;
+}
+
+h4 {
+    font-family: "Neue Haas Grotesk Text Pro", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.001em;
+    line-height: 26px;
+    font-size: 22px;
+    color: #777;
+}  
+q {
+    line-height: 25px;
+    font-size: 20px;
+}   
+.quote-credit h3{
+    letter-spacing: -0.002em;
+    line-height: 13px;
+    font-size: 11px;
+}
+.wrapper{
+    width: 100vw;
+}    
+.image-logo{
+    float: left;
+    margin-left: 15px;
+}
+    
+.logo{
+    display: none;
+    visibility: none;
+}
+
+.contact{
+
+  
+}
+
+
+.carousel-cell {
+    width: 65%;
+/*
+    border: 2px solid #222;
+    border-width: 0px 0px 0px 1px; 
+*/
+}
+    
+.heading{
+    width: 90%;
+    margin-left: 15px;
+    bottom: 85px;
+}    
+.flickity-page-dots {
+    
+    bottom: 34px;
+    right: 20px;
+/*
+    display: none;
+    visibility: none;
+*/
+}
+.social{
+    width: 100%;
+    margin-left: 30px;
+    bottom: 32px;  
+}
+    
+.social img{
+    height: 30px;
+    margin-top: -10px;
+    
+} 
+.social a:nth-of-type(3){
+    margin-left: 55px;  
+}   
+    
+.fade{
+    opacity: 1;
+}  
+    
+.weta-logo img{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 200px;
+    float: right;
+    display: none;
+}
+
+.quote{
+    margin-top: 50px;
+    width: 75%;
+    margin-left: 30px;
+    display: block;
+    position: relative;
+    float: left;
+}  
+
+.quote-credit{
+    width: 460px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    float: left;
+}
+   
+.ceo{
+    display: none;
+    width: 80%;
+    left: -10%;
+/*    float: left;*/
+} 
+.ceo img{
+    width: 100%;
+}    
+.carousel2 {
+    width: 100%;
+    height: 650px;
+} 
+.carousel-item  {
+    width: 140%;
+    height: 100%;
+}    
+.carousel-item  img {
+    width: 160%;
+    margin-left: -60%; 
+  } 
+    
+.shadow {
+    opacity: 1;
+}
+.call-to-action-copy{
+    top: 225px;
+}
+/*
+.call-to-action-copy h2{
+    color: #a89778;
+}    
+    
+.call-to-action-copy p{
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 0px;
+    color: #777;
+}    
+*/
+.unique-offering img{
+    width: 100%;
+    border: 2px solid #a89778;
+    border-width: 1px 0px 0px 0px;     
+}
+
+.unique-offering-copy{
+    left: 15px;
+    margin-top: 0px;
+}
+    
+.unique-offering-copy h2{
+    color: #a89778;
+}
+    
+.Industry{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+.Industry p{
+    width: 385px;
+}    
+
+.dropdown-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+    
+.bootcamp{
+    width: calc(100% - 30px);
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    padding-left: 15px;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;     
+}
+
+.supervisor{
+    width: calc(100% - 30px);
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    margin-left: 15px;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;       
+} 
+    
+.internship{
+    width: calc(100% - 30px);
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 110px;
+    padding-right: 0px;
+    margin-left: 15px;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;       
+}      
+  
+.bootcamp-dropdown{
+    height: 2930px;
+}
+    
+.application{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}    
+    
+.domestic-students{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}   
+
+.international-students{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}    
+    
+.applying{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}
+.advisor-1{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+} 
+.advisor-2{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}   
+.advisor-3{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}      
+
+.weta-workshop-copy{
+    left: 15px;
+    margin-top: 0%;
+}   
+    
+.weta-workshop-copy p{
+    width: 90%;
+}    
+ 
+.controls .progress {
+	width: 82%;
+} 
+    
+.three-video-container{
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 0px;
+
+} 
+    
+.small-video-container{
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 0;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;
+}    
+    
+.small-video-container2{
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+    margin-left: 0%;
+    padding-bottom: 25px;
+    padding-right: 0;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;
+}     
+    
+.small-video-container3{
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+    margin-left: 0%;
+    padding-bottom: 75px;
+    padding-right: 0;
+    border: 1px solid #222;
+    border-width: 1px 0px 0px 0px;
+}     
+
+.massey {
+    padding-bottom: 50px;
+}
+    
+.massey-copy{
+    position: relative;
+    margin-top: 0px;
+    left: 15px;
+}
+        
+.massey-copy h2{
+    margin-top: 15px;
+    color: #a89778;
+}
+.massey-copy p{
+    color: #777;
+}
+    
+.learn-more a{
+    margin-left: 0px; 
+}
+ 
+footer{
+    width:100%;
+    margin-left: 15px;
+} 
+.footer-container{
+    margin-left: 0%;
+}
+    
+.footer-contact{
+    width: calc(100% - 30px);
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 0px;
+    padding-top: 15px;
+    top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #333;
+    border-width: 0px 0px 1px 0px;
+}    
+    
+.footer-mail a{
+    float: right;
+    margin-right: 0px;
+} 
+    
+.footer-mail img{
+    float: right;
+    margin-left: 25px;
+    margin-right: 0px;
+} 
+    
+.footer-contact h4:nth-of-type(1){
+    width: 100%;
+}    
+    
+.footer-contact h3{
+    line-height: 15px;
+} 
+    
+.footer-links a:nth-of-type(1){
+    margin-right: 71px;
+    float: right;
+}
+
+.footer-links a:nth-of-type(2){
+    margin-right: 133px;
+    float: right;
+}
+
+.footer-links a:nth-of-type(3){
+    margin-right: 198px;
+    float: right;
+}    
+    
+.legal{
+    margin-left: 0px;
+/*
+    bottom: 10px;
+    float: left;
+*/
+    margin-top: 35px;
+    padding-top: 0px;
+    border: 1px solid #333;
+    border-width: 0px 0px 0px 0px;
+}    
+.logos img{
+    margin-top: 5px;
+    position: relative;
+    float: right;
+    height: 100px;
+    padding-left: 25px;
+    
+} 
+.logos img:nth-of-type(1){
+    margin-top: 170px;
+    
+}     
+.logos img:nth-of-type(2){
+    margin-top: 170px;
+    padding-bottom: 10px;
+    
+}         
+.logos img:nth-of-type(3){
+    margin-top: 5px;
+    position: relative;
+    float: right;
+    clear: both;
+    height: 100px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    
+}       
+
+}
+@media screen and (min-width: 1000px) and (max-width: 1439px) {
+.wrapper{
+    width: 100vw;
+}  
+.weta-logo img{
+    margin-left: 5%;
+}    
+.ceo{
+    width: 36.5%;
+} 
+.ceo img{
+    width: 100%;
+}     
+.call-to-action-copy{
+    top: 370px;
+}    
+.carousel2 {
+    width: 100%;
+    height: 1000px;
+}    
+.call-to-action-copy{
+    left: 5%;
+}
+.unique-offering img{
+    width: 63.4%;
+}
+
+.unique-offering-copy{
+    width: 30%;
+    left: 4.5%;
+    margin-top: 4.5%;
+}
+    
+.unique-offering-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+.Industry{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+.dropdown-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+.advisor-1{
+    margin-left: 0px;
+}   
+.application{
+    margin-left: 0px;
+}  
+.applying{
+    margin-left: 0px;
+}    
+    
+.weta-workshop-copy{
+    width: 30%;
+    left: 5%;
+    margin-top: 4.5%;
+}
+    
+.weta-workshop-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+#video-container {
+    width: 63.5%;
+} 
+
+.three-video-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.massey-copy{
+    left: 5%;
+}   
+footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1900px) {
+h1 {
+    line-height: 95px;
+    font-size: 80px;
+}   
+.heading{
+    width: 900px;
+}    
+.wrapper{
+    width: 100vw;
+}  
+.weta-logo img{
+    margin-left: 5%;
+}    
+.ceo{
+    width: 36.5%;
+} 
+.ceo img{
+    width: 100%;
+}     
+.call-to-action-copy{
+    top: 370px;
+}    
+.call-to-action-copy{
+    left: 5%;
+}
+.unique-offering img{
+    width: 63.4%;
+}
+
+.unique-offering-copy{
+    width: 30%;
+    left: 4.5%;
+    margin-top: 4.5%;
+}
+    
+.unique-offering-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+.Industry{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+.dropdown-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+.advisor-1{
+    margin-left: 0px;
+}   
+.application{
+    margin-left: 0px;
+}  
+.applying{
+    margin-left: 0px;
+}    
+    
+.weta-workshop-copy{
+    width: 30%;
+    left: 5%;
+    margin-top: 4.5%;
+}
+    
+.weta-workshop-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+#video-container {
+    width: 63.5%;
+} 
+
+.three-video-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.massey-copy{
+    left: 5%;
+}   
+footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+    
+}    
+
+
+@media screen and (min-width: 1901px) and (max-width: 9999999px) {
+
+h1 {
+    line-height: 95px;
+    font-size: 80px;
+}   
+.heading{
+    width: 900px;
+}    
+.wrapper{
+    width: 1900px;
+}  
+.weta-logo img{
+    margin-left: 5%;
+}    
+.ceo{
+    width: 36.5%;
+} 
+.ceo img{
+    width: 100%;
+}     
+.call-to-action-copy{
+    top: 370px;
+}    
+.call-to-action-copy{
+    left: 5%;
+}
+.unique-offering img{
+    width: 63.4%;
+}
+
+.unique-offering-copy{
+    width: 30%;
+    left: 4.5%;
+    margin-top: 4.5%;
+}
+    
+.unique-offering-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+.Industry{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+.dropdown-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+.advisor-1{
+    margin-left: 0px;
+}   
+    
+.application{
+    margin-left: 0px;
+}  
+.applying{
+    margin-left: 0px;
+}      
+    
+.weta-workshop-copy{
+    width: 30%;
+    left: 5%;
+    margin-top: 4.5%;
+}
+    
+.weta-workshop-copy h2{
+    color: #a89778;
+    width: 90%;
+}
+    
+#video-container {
+    width: 63.5%;
+} 
+
+.three-video-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.massey-copy{
+    left: 5%;
+}   
+footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+  
+    
+}
