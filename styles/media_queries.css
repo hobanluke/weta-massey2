@@ -1277,6 +1277,7 @@ h1 {
     line-height: 95px;
     font-size: 80px;
 }   
+ 
 .heading{
     width: 900px;
 }    
@@ -1301,10 +1302,10 @@ h1 {
     width: 100%;
 } 
 .call-to-action-copy{
-    left: 5%;
+    left: 3%;
 }
 .unique-offering img{
-    width: 63.4%;
+    width: 64%;
 }
 
 .unique-offering-copy{
@@ -1312,7 +1313,9 @@ h1 {
     left: 4.5%;
     margin-top: 4.5%;
 }
-    
+.unique-offering-copy p{
+    width: 90%;
+}   
 .unique-offering-copy h2{
     color: #a89778;
     width: 80%;
@@ -1322,14 +1325,17 @@ h1 {
         
 }    
 .Industry{
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
 }
-
+.Industry p{
+    width: 95%;
+    min-height: 120px;
+}
 .dropdown-container{
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
 }    
@@ -1346,28 +1352,36 @@ h1 {
     
 .weta-workshop-copy{
     width: 30%;
-    left: 5%;
+    left: 3%;
 }
     
 .weta-workshop-copy h2{
     color: #a89778;
     width: 90%;
 }
+.weta-workshop-copy p{
+    width: 95%;
+}    
     
 #video-container {
-    width: 63.5%;
+    width: 64%;
 } 
 
 .three-video-container{
-    width: 90%;
+    width: 94%;
+    padding-left: 3%;
     margin-left: auto;
     margin-right: auto;
 }    
 .massey-copy{
-    left: 5%;
+    margin-top: -800px;
+    left: 3%;
 }   
+.massey-copy p{
+    width: 420px;
+}    
 footer{
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
 }    
@@ -1380,11 +1394,7 @@ h1 {
     line-height: 95px;
     font-size: 80px;
 }   
-/*
-.landing{    
-    width: 100vw;
-}    
-*/
+ 
 .heading{
     width: 900px;
 }    
@@ -1393,7 +1403,8 @@ h1 {
 }  
 .weta-logo img{
     margin-left: 5%;
-} 
+}    
+
 .quote{
     width: 40%;
 }    
@@ -1408,10 +1419,10 @@ h1 {
     width: 100%;
 } 
 .call-to-action-copy{
-    left: 5%;
+    left: 3%;
 }
 .unique-offering img{
-    width: 63.4%;
+    width: 64%;
 }
 
 .unique-offering-copy{
@@ -1419,7 +1430,9 @@ h1 {
     left: 4.5%;
     margin-top: 4.5%;
 }
-    
+.unique-offering-copy p{
+    width: 90%;
+}   
 .unique-offering-copy h2{
     color: #a89778;
     width: 80%;
@@ -1429,14 +1442,17 @@ h1 {
         
 }    
 .Industry{
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
 }
-
+.Industry p{
+    width: 95%;
+    min-height: 120px;
+}
 .dropdown-container{
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
 }    
@@ -1453,31 +1469,39 @@ h1 {
     
 .weta-workshop-copy{
     width: 30%;
-    left: 5%;
+    left: 3%;
 }
     
 .weta-workshop-copy h2{
     color: #a89778;
     width: 90%;
 }
+.weta-workshop-copy p{
+    width: 95%;
+}    
     
 #video-container {
-    width: 63.5%;
+    width: 64%;
 } 
 
 .three-video-container{
-    width: 90%;
+    width: 94%;
+    padding-left: 3%;
     margin-left: auto;
     margin-right: auto;
 }    
 .massey-copy{
-    left: 5%;
+    margin-top: -800px;
+    left: 3%;
 }   
+.massey-copy p{
+    width: 420px;
+}    
 footer{
-    width: 90%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
-}     
+}        
   
     
 }

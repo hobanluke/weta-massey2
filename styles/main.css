@@ -180,17 +180,6 @@ html {
     }
 }
 
-@media (min-width:1240px) and (max-width:1440px) {
-    html {
-        font-size: calc(1.1px + ((.127751710654936vw - 1px) * .490647482014388))
-    }
-}
-
-@media (min-width:1440px) {
-    html {
-        font-size: calc(1.5px + ((.073333333333333vw - 1.2px) * .4))
-    }
-}
 
 
 @font-face {
