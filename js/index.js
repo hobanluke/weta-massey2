@@ -27,9 +27,7 @@ $('#unique-offering-link, #unique-offering-close').click(function() {
 
 
 
-
-
-$('#supervisor-link, #supervisor-close, #supervisor-image').click(function() {
+$('.button').click(function() {
    $(this).toggleClass('active');
     $('#supervisor-dropdown').toggleClass('open');
     $('#supervisor-arrow').toggleClass('open');
@@ -43,7 +41,13 @@ $('#supervisor-link, #supervisor-close, #supervisor-image').click(function() {
     $('#bootcamp-arrow').removeClass('open');
     $('#bootcamp-title').removeClass('open');
     $('#bootcamp-image').removeClass('open');
+    $('#supervisor-image').removeClass('close');
+    $('#internship-image').addClass('close');
+    $('#bootcamp-image').addClass('close');
 });
+    
+   
+
 
 $('#bootcamp-link, #bootcamp-close, #bootcamp-image').click(function() {
    $(this).toggleClass('active');
@@ -59,7 +63,29 @@ $('#bootcamp-link, #bootcamp-close, #bootcamp-image').click(function() {
     $('#supervisor-arrow').removeClass('open');
     $('#supervisor-title').removeClass('open');
     $('#supervisor-image').removeClass('open');
+    $('#bootcamp-image').removeClass('close');
+    $('#internship-image').addClass('close');
+    $('#supervisor-image').addClass('close');
     
+});
+
+$('#supervisor-link, #supervisor-close, #supervisor-image').click(function() {
+   $(this).toggleClass('active');
+    $('#supervisor-dropdown').toggleClass('open');
+    $('#supervisor-arrow').toggleClass('open');
+    $('#supervisor-title').toggleClass('open');
+    $('#supervisor-image').toggleClass('open');
+    $('#internship-dropdown').removeClass('open');
+    $('#internship-arrow').removeClass('open');
+    $('#internship-title').removeClass('open');
+    $('#internship-image').removeClass('open');
+    $('#bootcamp-dropdown').removeClass('open');
+    $('#bootcamp-arrow').removeClass('open');
+    $('#bootcamp-title').removeClass('open');
+    $('#bootcamp-image').removeClass('open');
+    $('#supervisor-image').removeClass('close');
+    $('#internship-image').addClass('close');
+    $('#bootcamp-image').addClass('close');
 });
 
 $('#internship-link, #internship-close, #internship-image').click(function() {
@@ -76,6 +102,9 @@ $('#internship-link, #internship-close, #internship-image').click(function() {
     $('#supervisor-arrow').removeClass('open');
     $('#supervisor-title').removeClass('open');
     $('#supervisor-image').removeClass('open');
+    $('#internship-image').removeClass('close');
+    $('#bootcamp-image').addClass('close');
+    $('#supervisor-image').addClass('close');
 });
 
 
@@ -87,8 +116,13 @@ $('#internship-link, #internship-close, #internship-image').click(function() {
 $('.popuptrigger').click(function() {
    $(this).toggleClass('active');
     $('.popup').toggleClass('open');
+    $('html').toggleClass('open');if (e.keyCode === 27) $('.popuptrigger').click();   // stop scroll when popup
       video.pause();
 });
+$(document).keyup(function(e) {
+  if (e.keyCode === 27) $('.popuptrigger').click();   // stop scroll when popup
+});
+
 
 
 //$(document).ready(function(){
@@ -98,13 +132,13 @@ $('.popuptrigger').click(function() {
 //});
 
 
-$(document).keyup(function(e) {
-  if (e.keyCode === 27){
-      $(this).toggleClass('active');
-    $('.popup').removeClass('open');
-  }   
-    
-});
+//$(document).keyup(function(e) {
+//  if (e.keyCode === 27){
+//      $(this).toggleClass('active');
+//    $('.popup').removeClass('open');
+//  }   
+//    
+//});
 
 $(".small-video-container").click(function(){
     $("#popup-video").attr("src","assets/videos/weta-showreel.mp4").attr('poster',"assets/videos/weta-showreel.jpg").load().play();

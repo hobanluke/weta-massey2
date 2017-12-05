@@ -663,7 +663,7 @@ p {
     -moz-transition: 1s ease;
 }
 
-.carousel2 .flickity-slider{ transform: none !important; }
+.carousel2 .flickity-slider{ -webkit-transform: none !important; transform: none !important; }
 
 
 .carousel-item.is-selected{
@@ -684,7 +684,7 @@ p {
     position: relative;
     margin-top: -0px;
     float: left;
-    margin-bottom: 25px;
+    margin-bottom: 1px;
 /*
     border: 2px solid #a89778;
     border-width: 0px 1px 1px 0px; 
@@ -728,7 +728,6 @@ p {
     box-shadow: 
         inset 0px 11px 8px -10px #111,
         inset 0px -11px 8px -10px #111; 
-    height: 350px;
     position: relative;
     background: #222;
     clear: both;
@@ -770,23 +769,91 @@ p {
     padding-top: 25px;
     padding-bottom: 30px;
     border: 1px solid #333;
-    border-width: 0px 1px 0px 0px;
-    height: 1100px;
+    border-width: 0px 0px 0px 0px;
 }
-
-
 
 .programme h2:nth-of-type(1){
     padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid #333;
-    border-width: 1px 0px 0px 0px;
+    border-width: 1px 0px 1px 0px;
 }
-.programme h4:nth-of-type(1){
+
+.programme h3{
+    color: #999;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+
+.programme-close{
+}
+
+.programme-image{
+    width: 30%;
+    position: relative;
+    display: block;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: calc(2.5% - 1px);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #333;
+    border-width: 0px 1px 0px 1px;
+}
+
+
+.programme-image figure{
+    border: 1px solid #333;
+    border-width: 1px 1px 1px 1px;
+}
+
+.programme-image img{
+    width: 100%;
+    opacity: .5;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+}
+
+
+
+
+.programme-structure{
+    width: 27%;
+    position: relative;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border: 1px solid #333;
+    border-width: 0px 0px 0px 0px;
+    padding-left: 2.5%;
+  
+}
+
+
+.programme-structure h2:nth-of-type(1){
     padding-top: 10px;
+     padding-bottom: 10px;
+    border: 1px solid #333;
+    border-width: 1px 0px 1px 0px;
 }
 
 
+.unique-offering-dropdown h2{
+    margin-bottom: 10px;
+    top: -25px;
+    color: #ddd;
+    font-size: 28px;
+    line-height: 35px;
+}
+.unique-offering-dropdown p{
+    color: #777;
+}
 
+.unique-offering-dropdown p span{
+  color: #999;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
 
 
 
@@ -863,7 +930,7 @@ p {
 
 #bootcamp-image{
     cursor: pointer;
-    opacity: .5;
+    opacity: .25;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); 
     transition: 0.3s ease;
@@ -878,6 +945,9 @@ p {
     -moz-transition: 0.3s ease;    
 }
 
+#bootcamp-image.open{
+    opacity: .75;
+} 
 #bootcamp-image.close{
     opacity: .25;
 }
@@ -923,7 +993,7 @@ p {
 
 #supervisor-image{
     cursor: pointer;
-    opacity: .5;
+    opacity: .25;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); 
     transition: 0.3s ease;
@@ -941,7 +1011,9 @@ p {
 #supervisor-image.close{
     opacity: .25;
 }
-
+#supervisor-image.open{
+    opacity: .75;
+}
 #supervisor-title{
     color: #777;
 }
@@ -984,7 +1056,7 @@ p {
 
 #internship-image{
     cursor: pointer;
-    opacity: .5;
+    opacity: .25;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); 
     transition: 0.3s ease;
@@ -1001,6 +1073,10 @@ p {
 
 #internship-image.close{
     opacity: .25;
+}
+
+#internship-image.open{
+    opacity: .75;
 }
 
 #internship-title{
@@ -1052,7 +1128,7 @@ p {
     box-shadow: 
         inset 0px 11px 8px -10px #111,
         inset 0px -11px 8px -10px #111; 
-    height: 1730px;
+/*    height: 1730px;*/
     position: relative;
     background: #222;
     clear: both;
@@ -1084,10 +1160,8 @@ p {
     padding-right: calc(2.5% - 1px);
     margin-left: 40px;
     padding-top: 25px;
-    padding-bottom: 30px;
-    border: 1px solid #333;
-    border-width: 0px 1px 0px 0px;
-    height: 1100px;
+    padding-bottom: 25px;
+
 }
 
 .application h2:nth-of-type(1){
@@ -1100,25 +1174,50 @@ p {
     border: 1px solid #333;
     border-width: 1px 0px 0px 0px;
 }
+.applying-close{
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
 
 .domestic-students{
     width: 30%;
     position: relative;
     display: block;
     float: left;
-    margin-left: 2.5%;
+    padding-left: 2.5%;
     padding-right: calc(2.5% - 1px);
     padding-top: 25px;
     padding-bottom: 30px;
     border: 1px solid #333;
-    border-width: 0px 1px 0px 0px;
-    height: 1100px;
+    border-width: 0px 1px 0px 1px;
+  
 }
 
 .domestic-students h2:nth-of-type(1){
     padding-top: 10px;
     border: 1px solid #333;
     border-width: 1px 0px 0px 0px;
+}
+
+.domestic-students h2:nth-of-type(2){
+    padding-top: 25px;
+     padding-bottom: 5px;
+    border: 1px solid #333;
+    border-width: 1px 0px 1px 0px;
+}
+
+.domestic-students h2:nth-of-type(3){
+    padding-top: 25px;
+     padding-bottom: 10px;
+    margin-top: 5px;
+    clear: both;
+    border: 1px solid #333;
+    border-width: 1px 0px 1px 0px;
+}
+
+.indent{
+    margin-left: 0px;
 }
 
 .international-students{
@@ -1130,13 +1229,32 @@ p {
     border: 1px solid #333;
     border-width: 0px 0px 0px 0px;
     padding-left: 2.5%;
-    height: 1100px;
+  
 }
+
 
 .international-students h2:nth-of-type(1){
     padding-top: 10px;
     border: 1px solid #333;
     border-width: 1px 0px 0px 0px;
+}
+
+
+.international-students h2:nth-of-type(2){
+    padding-top: 10px;
+     padding-bottom: 10px;
+   color: #999;
+    border: 1px solid #333;
+    border-width: 1px 0px 1px 0px;
+}
+
+.international-students h2:nth-of-type(3){
+    padding-top: 20px;
+     padding-bottom: 10px;
+    clear: both;
+   color: #999; 
+    border: 1px solid #333;
+    border-width: 1px 0px 1px 0px;
 }
 
 .bootcamp-dropdown h2{
@@ -1149,9 +1267,6 @@ p {
 
 .bootcamp-dropdown p{
     color: #777;
-        width: 97%;
-/*    text-indent: 32px;*/
-    margin-bottom: 1px;
 }
 
 .bootcamp-dropdown p:first-of-type {
@@ -1166,8 +1281,8 @@ p {
 
 .bootcamp-heading p:nth-of-type(1){
     width: 100%;
-    margin-top: 3px;
-    padding-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     float: left;
     clear: both;
 /*
@@ -1194,10 +1309,6 @@ p {
     height: 520px;
 }
 
-.applying-close{
-    bottom: 101px;
-    position: absolute;
-}
 
 .applying div:nth-of-type(2){
     padding-top: 10px;
@@ -1264,7 +1375,7 @@ p {
     box-shadow: 
         inset 0px 11px 8px -10px #111,
         inset 0px -11px 8px -10px #111; 
-    height: 380px;
+/*    height: 380px;*/
     position: relative;
     background: #222;
     clear: both;
@@ -1300,7 +1411,7 @@ p {
     padding-right: calc(2.5% - 1px);
     margin-left: 40px;
     padding-top: 40px;
-    padding-bottom: 85px;
+    padding-bottom: 40px;
     border: 1px solid #333;
     border-width: 0px 1px 0px 0px;
 }
@@ -1312,7 +1423,7 @@ p {
     float: left;
     margin-right: 20px;
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    filter: grayscale(100%); 
 }
 
 .advisor-1 img{
@@ -1326,16 +1437,30 @@ p {
     margin-left: 5px;
 }
 
+.advisor-1 h3:nth-of-type(1){
+    margin-right: 10%;
+}
+
 .advisor-1-close h3{
     clear: both;
     float: left;
-    margin-left: -5px;
+    margin-left: 0px;
     margin-top: 30px;
     position: relative;
 }
 
+.advisor-1-close img{
+    height: 40px;
+    margin-left: 25px;
+    margin-top: -12px;
+    position: absolute;
+    width: 50px;
+    display: inline-block;
+}
+
 .drop-down-mail a{
     float: left;
+    clear: both;
     margin-left: -8px;
     margin-top: 20px;
     padding: 9px 20px;
@@ -1399,6 +1524,10 @@ p {
     margin-left: 5px;
 }
 
+.advisor-2 h3:nth-of-type(1){
+    margin-right: 10%;
+}
+
 .advisor-2 h4:nth-of-type(1){
     color: #ddd;
     width: 400px;
@@ -1438,6 +1567,11 @@ p {
     margin-left: 5px;
 }
 
+/*
+.advisor-3 h3:nth-of-type(1){
+    margin-right: 10%;
+}
+*/
 .drop-down-mail a{
     float: left;
     margin-left: -8px;
@@ -1511,8 +1645,6 @@ p {
 }
 
 input.text, input.search, textarea.textarea {
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
 border-radius: 10px;
 }
 
@@ -2187,7 +2319,7 @@ progress[value]::-webkit-progress-bar {
 .massey img{
     width: 100%;
     position: relative;
-    opacity: 1;
+    opacity: .75;
     border: 2px solid #222;
     border-width: 1px 0px 0px 0px; 
 }
@@ -2196,12 +2328,12 @@ progress[value]::-webkit-progress-bar {
     position: absolute;
     margin-top: -700px;
     left: 40px;
-    width: 600px;
+    width: 500px;
 }
 
 .massey-copy h4{
     margin-top: 25px;
-    width: 300px;
+    width: 350px;
 }
 
 .massey-copy p{
@@ -2212,7 +2344,6 @@ progress[value]::-webkit-progress-bar {
 
 .learn-more a{
     float: left;
-    margin-left: -2px;
     margin-top: 20px;
     padding: 9px 20px;
     border-radius: 100px;
