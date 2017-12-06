@@ -723,9 +723,9 @@ q {
 }
 
 .quote{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 88%;
-    margin-left: 30px;
+    margin-left: 15px;
     display: block;
     position: relative;
     float: left;
@@ -753,7 +753,7 @@ q {
 }
 .call-to-action-copy{
     position: relative;
-    top: 25px;
+    top: 15px;
     left: 15px;
     width: 86%;
     padding-bottom: 45px;
@@ -779,7 +779,7 @@ q {
     width: 86%;
     left: 15px;
     padding-bottom: 25px;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 .unique-offering-copy p{
     width: 100%;
@@ -875,7 +875,16 @@ q {
 #supervisor-image{
     opacity: .75;  
 }    
-    
+
+.learn-more img{
+    height: 36px;
+}  
+.enroll-now img{
+    height: 36px;
+}    
+.drop-down img{
+    height: 36px;
+}   
 .mobile{
     display: block;
     visibility: visible;
@@ -967,7 +976,7 @@ q {
     padding-left: 0%;
     border-width: 0px 0px 0px 0px;
     height: auto;
-}     
+}   
     .drop-down-mail a{
     float: right;
     margin-left: 0px;
@@ -1037,7 +1046,7 @@ q {
 .weta-workshop-copy{
     width: 95%;
     left: 15px;
-    margin-top: 0%;
+    margin-top: 0px;
 }   
     
 .weta-workshop-copy p{
@@ -1270,6 +1279,15 @@ q {
   
 }
 
+.learn-more img{
+    height: 37px;
+}  
+.enroll-now img{
+    height: 37px;
+}    
+.drop-down img{
+    height: 37px;
+}    
 
 .carousel-cell {
     width: 75%;
@@ -1325,9 +1343,9 @@ q {
 }
 
 .quote{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 88%;
-    margin-left: 30px;
+    margin-left: 20px;
     display: block;
     position: relative;
     float: left;
@@ -1339,7 +1357,6 @@ q {
     margin-bottom: 35px;
     float: left;
 }
-   
 .ceo{
     display: none;
     width: 80%;
@@ -1355,7 +1372,7 @@ q {
 }
 .call-to-action-copy{
     position: relative;
-    top: 25px;
+    top: 15px;
     left: 15px;
     width: 86%;
     padding-bottom: 45px;
@@ -1380,7 +1397,8 @@ q {
 .unique-offering-copy{
     width: 95%;
     left: 15px;
-    margin-top: 0px;
+    margin-top: 15px;
+    padding-bottom: 50px;
 }
     
 .unique-offering-copy h2{
@@ -1567,6 +1585,22 @@ q {
     height: auto;
 }      
 
+.advisor-1 h3{
+    line-height: 16px;
+}    
+
+.advisor-2 h3{
+    line-height: 16px;
+}   
+
+.advisor-3 h3{
+    line-height: 16px;
+}     
+    
+.drop-down-mail a{
+    margin-left: 0px;
+    
+}    
 .weta-workshop-copy{
     width: 95%;
     left: 15px;
