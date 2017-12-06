@@ -13,7 +13,6 @@ $('a[href*="#"]:not([href="#"])').click(function() {
   }
 });
 
-
 //-----Actives menu  | START -----//
 
 //Click menu  
@@ -23,9 +22,6 @@ $('#unique-offering-link, #unique-offering-close').click(function() {
     $('#unique-offering-dropdown').toggleClass('open');
     $('#unique-offering-arrow').toggleClass('open');
 });
-
-
-
 
 $('.button').click(function() {
    $(this).toggleClass('active');
@@ -46,9 +42,6 @@ $('.button').click(function() {
     $('#bootcamp-image').addClass('close');
 });
     
-   
-
-
 $('#bootcamp-link, #bootcamp-close, #bootcamp-image').click(function() {
    $(this).toggleClass('active');
     $('#bootcamp-dropdown').toggleClass('open');
@@ -65,8 +58,7 @@ $('#bootcamp-link, #bootcamp-close, #bootcamp-image').click(function() {
     $('#supervisor-image').removeClass('open');
     $('#bootcamp-image').removeClass('close');
     $('#internship-image').addClass('close');
-    $('#supervisor-image').addClass('close');
-    
+    $('#supervisor-image').addClass('close'); 
 });
 
 $('#supervisor-link, #supervisor-close, #supervisor-image').click(function() {
@@ -108,11 +100,6 @@ $('#internship-link, #internship-close, #internship-image').click(function() {
 });
 
 
-
-
-
-
-
 $('.popuptrigger').click(function() {
    $(this).toggleClass('active');
     $('.popup').toggleClass('open');
@@ -137,9 +124,6 @@ $(document).keyup(function(e) {
     $('#play-pause').addClass("icon-pause");
     $('#popup-play-pause').addClass("popup-icon-pause");    
 });
-
-
-
 
 $(".small-video-container").click(function(){
     $("#popup-video").attr("src","assets/videos/weta-showreel.ogv").attr("src","assets/videos/weta-showreel.webm").attr("src","assets/videos/weta-showreel.mp4").attr('poster',"assets/videos/weta-showreel.jpg");
@@ -170,7 +154,6 @@ window.onload = function() {
 
 	// click on video to play
 	video.addEventListener("click", function() {
-        console.log("clicked it");
 		if (video.paused == true) {
 			// Play the video
 			video.play();
@@ -215,7 +198,6 @@ window.onload = function() {
   
 	// click on video to play
 	bigvideo.addEventListener("click", function() {
-        console.log(bigvideo.duration);
 		if (bigvideo.paused == true) {
 			// Play the video
 			bigvideo.play();
@@ -257,8 +239,6 @@ window.onload = function() {
 		// If the browser doesn't support the progress element, set its state for some different styling
 		var supportsProgress = (document.createElement('progress').max !== undefined);
 		if (!supportsProgress) progress.setAttribute('data-state', 'fake');
-
-
 
 			// As the video is playing, update the progress bar
 			video.addEventListener('timeupdate', function() {
@@ -316,26 +296,12 @@ window.onload = function() {
 				var pos = (e.pageX  - (this.offsetLeft + document.getElementById('popup-video').offsetLeft)) / this.offsetWidth;
 				bigvideo.currentTime = pos * bigvideo.duration;
 			});
-
-
 }
 
 
 
 
-
-
-
-
-
-
-
  //-----Video | END -----//
-
-
-
-
-
 
 
 
@@ -372,30 +338,24 @@ if (touch) { // remove all :hover stylesheets
 
 
 
-
-
-
-// external js: flickity.pkgd.js
+// Hero Carousel 
 
 
 var carousel = document.querySelector('.carousel');
 var flkty = new Flickity( carousel, {
   imagesLoaded: true,
-  percentPosition: false,
-//    initialIndex: 1,
   autoPlay: 2500,
-pauseAutoPlayOnHover: false,
-//selectedAttraction: 0.2,
-//friction: 0.5,
+  pauseAutoPlayOnHover: false,
   wrapAround: true,
   
 });
 
 
+ // Second Carousel 
 
-    // external js: flickity.pkgd.js
-     $(window).load(function () {
+$(window).load(function () {
     var $carousel = $('.carousel2').flickity({
+      imagesLoaded: true,
       contain: true,
       wrapAround: true, 
       autoPlay: 6000,
