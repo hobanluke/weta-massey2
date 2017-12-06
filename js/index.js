@@ -418,18 +418,4 @@ pauseAutoPlayOnHover: false,
 
 
 
-
-
-
-
-
-
-$(function () {
-	'use strict';
-
-		
-		
-	 
-
- })();
  

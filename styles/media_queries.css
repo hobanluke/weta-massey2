@@ -490,7 +490,10 @@ q {
 .massey {
     padding-bottom: 50px;
 }
-    
+.massey img{
+    opacity: .85;
+}
+ 
 .massey-copy{
     position: relative;
     margin-top: 0px;
@@ -850,9 +853,10 @@ q {
     width: calc(100% - 30px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
-    padding-left: 15px;
+    padding-left: 0px;
+    margin-left: 15px;
     border: 1px solid #222;
     border-width: 1px 0px 0px 0px;     
 }
@@ -865,7 +869,7 @@ q {
     width: calc(100% - 30px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
     margin-left: 15px;
     border: 1px solid #222;
@@ -897,7 +901,7 @@ q {
     width: calc(100% - 30px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
     margin-left: 15px;
     border: 1px solid #222;
@@ -1106,7 +1110,11 @@ q {
 .massey {
     padding-bottom: 50px;
 }
-    
+
+.massey img{
+    opacity: .85;
+}
+   
 .massey-copy{
     position: relative;
     margin-top: 0px;
@@ -1466,9 +1474,10 @@ q {
     width: calc(100% - 30px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
-    padding-left: 15px;
+    padding-left: 0px;
+    margin-left: 15px;
     border: 1px solid #222;
     border-width: 1px 0px 0px 0px;     
 }
@@ -1481,8 +1490,9 @@ q {
     width: calc(100% - 30px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
+    padding-left: 0px;
     margin-left: 15px;
     border: 1px solid #222;
     border-width: 1px 0px 0px 0px;       
@@ -1504,7 +1514,7 @@ q {
     width: calc(100% - 30px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
     margin-left: 15px;
     border: 1px solid #222;
@@ -1663,6 +1673,10 @@ q {
 }  
 .massey {
     padding-bottom: 50px;
+}
+
+.massey img{
+    opacity: .85;
 }
     
 .massey-copy{
@@ -1945,12 +1959,49 @@ q {
 .unique-offering-copy{
     margin-top: 25px;
     left: 40px;
+    padding-bottom: 25px;
 }
     
 .unique-offering-copy h2{
     color: #a89778;
 }
     
+  
+
+.programme{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}
+.programme-image{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+}    
+.programme-structure{
+    width: 100%;
+    padding-right: 0%;
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0%;
+    border-width: 0px 0px 0px 0px;
+    height: auto;
+  
+}    
+    
+.programme-close{
+    display: none;
+}    
 .mobile{
     display: block;
     visibility: visible;
@@ -1959,6 +2010,19 @@ q {
     display: none;
     visibility: hidden;
 } 
+
+.mobile p{
+    width:  70%;
+}    
+.learn-more img{
+    height: 37px;
+}  
+.enroll-now img{
+    height: 37px;
+}    
+.drop-down img{
+    height: 37px;
+}    
     
 .Industry{
     width: 100%;
@@ -1980,9 +2044,10 @@ q {
     width: calc(100% - 80px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
-    padding-left: 40px;
+    padding-left: 0px;
+    margin-left: 40px;
     border: 1px solid #222;
     border-width: 1px 0px 0px 0px;     
 }
@@ -2002,10 +2067,10 @@ q {
     width: calc(100% - 80px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
-    padding-left: 40px;
-    margin-left: 0%;
+    padding-left: 0px;
+    margin-left: 40px;
     border: 1px solid #222;
     border-width: 1px 0px 0px 0px;  
     border-width: 1px 0px 0px 0px;       
@@ -2015,18 +2080,14 @@ q {
     width: calc(100% - 80px);
     clear: both;
     padding-top: 25px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-right: 0px;
-    padding-left: 40px;
-    margin-left: 0%;
+    padding-left: 0px;
+    margin-left: 40px;
     border: 1px solid #222;
     border-width: 1px 0px 0px 0px;        
 }      
   
-.bootcamp-dropdown{
-    height: 2930px;
-}
-    
 .application{
     width: 100%;
     padding-right: 0%;
@@ -2036,6 +2097,9 @@ q {
     border-width: 0px 0px 0px 0px;
     height: auto;
 }    
+.applying-close{
+    display: none;
+}
     
 .domestic-students{
     width: 100%;
@@ -2043,6 +2107,7 @@ q {
     margin-left: 0px;
     padding-top: 25px;
     padding-bottom: 0px;
+    padding-left: 0%;
     border-width: 0px 0px 0px 0px;
     height: auto;
 }   
@@ -2052,7 +2117,7 @@ q {
     padding-right: 0%;
     margin-left: 0px;
     padding-top: 25px;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
     padding-left: 0%;
     border-width: 0px 0px 0px 0px;
     height: auto;
@@ -2092,11 +2157,40 @@ q {
     padding-right: 0%;
     margin-left: 0px;
     padding-top: 25px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     padding-left: 0%;
     border-width: 0px 0px 0px 0px;
     height: auto;
-}      
+}  
+.advisor-1 h4:nth-of-type(1){
+    width: 100%;
+}    
+.advisor-2 h4:nth-of-type(1){
+    width: 100%;
+}    
+.advisor-3 h4:nth-of-type(1){
+    width: 100%;
+}    
+
+.advisor-1 h3:nth-of-type(2){
+    margin-right: 15%;
+    float: right;
+}
+.advisor-2 h3:nth-of-type(2){
+    margin-right: 15%;
+    float: right;
+}
+.advisor-3 h3:nth-of-type(2){
+    margin-right: 15%;
+    float: right;
+}
+.advisor-1-close h3{
+    display: none;
+}
+
+.drop-down-mail a{
+    margin-left: 0px;
+}
 
 .weta-workshop-copy{
     left: 40px;
@@ -2158,7 +2252,11 @@ q {
 .massey {
     padding-bottom: 50px;
 }
-    
+
+.massey img{
+    opacity: .85;
+}
+ 
 .massey-copy{
     position: relative;
     margin-top: 0px;
@@ -2291,11 +2389,17 @@ footer{
     width: 100%;
 }     
 .call-to-action-copy{
-    top: 10px;
-}  
-.call-to-action-copy{
+    top: 50px;
+    width: 550px;
     left: 2%;
-}
+}  
+.call-to-action-copy p{
+    width: 450px;
+}    
+.shadow {
+    width: 130%;  
+    opacity: 1;
+}    
 .unique-offering img{
     width: 100%;
 }
@@ -2304,6 +2408,7 @@ footer{
     width: 50%;
     left: 2%;
     margin-top: 2.5%;
+    padding-bottom: 25px;
 }
     
 .unique-offering-copy h2{
@@ -2589,7 +2694,7 @@ footer{
 
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1900px) {
+@media screen and (min-width: 1441px) and (max-width: 1850px) {
 h1 {
     line-height: 95px;
     font-size: 80px;
@@ -2706,7 +2811,7 @@ footer{
 }    
 
 
-@media screen and (min-width: 1901px) and (max-width: 9999999px) {
+@media screen and (min-width: 1851px) and (max-width: 9999999px) {
 h1 {
     line-height: 95px;
     font-size: 80px;
@@ -2716,7 +2821,7 @@ h1 {
     width: 900px;
 }    
 .wrapper{
-    width: 1900px;
+    width: 1800px;
 }  
 .weta-logo img{
     margin-left: 5%;
