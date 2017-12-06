@@ -116,45 +116,46 @@ $('#internship-link, #internship-close, #internship-image').click(function() {
 $('.popuptrigger').click(function() {
    $(this).toggleClass('active');
     $('.popup').toggleClass('open');
-    $('html').toggleClass('open');if (e.keyCode === 27) $('.popuptrigger').click();   // stop scroll when popup
+    $('html').toggleClass('open');
       video.pause();
+    var bigvideo = document.getElementById("popup-video");
+      bigvideo.pause();
+
+    $('#play-pause').addClass("icon-pause");
+    $('#popup-play-pause').addClass("popup-icon-pause");
 });
+
+
 $(document).keyup(function(e) {
-  if (e.keyCode === 27) $('.popuptrigger').click();   // stop scroll when popup
+  if (e.keyCode === 27) 
+    $('.popup').removeClass('open'); 
+    $('html').removeClass('open');
+      video.pause();
+    var bigvideo = document.getElementById("popup-video");
+    bigvideo.pause();
+
+    $('#play-pause').addClass("icon-pause");
+    $('#popup-play-pause').addClass("popup-icon-pause");    
 });
 
 
 
-//$(document).ready(function(){
-//  if ( $('.popup').hasClass('open') ) {
-//    $('#main').addClass('woodwork');
-//  }
-//});
-
-
-//$(document).keyup(function(e) {
-//  if (e.keyCode === 27){
-//      $(this).toggleClass('active');
-//    $('.popup').removeClass('open');
-//  }   
-//    
-//});
 
 $(".small-video-container").click(function(){
-    $("#popup-video").attr("src","assets/videos/weta-showreel.mp4").attr('poster',"assets/videos/weta-showreel.jpg").load().play();
+    $("#popup-video").attr("src","assets/videos/weta-showreel.ogv").attr("src","assets/videos/weta-showreel.webm").attr("src","assets/videos/weta-showreel.mp4").attr('poster',"assets/videos/weta-showreel.jpg");
+    
 });
 
 $(".small-video-container2").click(function(){
-    $("#popup-video").attr("src","assets/videos/blade-runner-2049.mp4").attr('poster',"assets/videos/blade-runner-2049.jpg").load().play();
+    $("#popup-video").attr("src","assets/videos/blade-runner-2049.ogv").attr("src","assets/videos/blade-runner-2049.webm").attr("src","assets/videos/blade-runner-2049.mp4").attr('poster',"assets/videos/blade-runner-2049.jpg");
+    
 });
 
 $(".small-video-container3").click(function(){
-    $("#popup-video").attr("src","assets/videos/ghost-in-the-shell.mp4").attr('poster',"assets/videos/ghost-in-the-shell.jpg").load().play();
+    $("#popup-video").attr("src","assets/videos/ghost-in-the-shell.ogv").attr("src","assets/videos/ghost-in-the-shell.webm").attr("src","assets/videos/ghost-in-the-shell.mp4").attr('poster',"assets/videos/ghost-in-the-shell.jpg");
+    
 });
 
-//$(".small-video-container3").click(function(){
-//    $("#popup-video").setAttribute('poster',"assets/videos/ghost-in-the-shell.jpg");   
-//});
 
 //-----Video  | START -----//
 
@@ -214,6 +215,7 @@ window.onload = function() {
   
 	// click on video to play
 	bigvideo.addEventListener("click", function() {
+        console.log(bigvideo.duration);
 		if (bigvideo.paused == true) {
 			// Play the video
 			bigvideo.play();
@@ -268,14 +270,14 @@ window.onload = function() {
 
 			// React to the user clicking within the progress bar
 			progress.addEventListener('click', function(e) {
+               
 				//var pos = (e.pageX  - this.offsetLeft) / this.offsetWidth; // Also need to take the parent into account here as .controls now has position:relative
-				var pos = (e.pageX  - (this.offsetLeft + this.offsetParent.offsetLeft)) / this.offsetWidth;
+				var pos = (e.pageX  - (this.offsetLeft + document.getElementById('video-container').offsetLeft)) / this.offsetWidth;
 				video.currentTime = pos * video.duration;
 			});
 
     
-        console.log("second video");
-    
+//    Pop up
     
 		var popupprogress = document.getElementById('popup-progress');
 		var popupprogressBar = document.getElementById('popup-progress-bar');
@@ -285,30 +287,33 @@ window.onload = function() {
 		if (!supportsProgressa) popupprogress.setAttribute('data-state', 'fake');
 
 
-
-
-			// The Media API has no 'stop()' function, so pause the video and reset its time and the progress bar
-//			stop.addEventListener('click', function(e) {
-//				video.pause();
-//				video.currentTime = 0;
-//				progress.value = 0;
-//			});
-            console.log(bigvideo);
-
 			// As the video is playing, update the progress bar
 			bigvideo.addEventListener('timeupdate', function() {
+               bigvideo = document.getElementById("popup-video");
 				// For mobile browsers, ensure that the progress element's max attribute is set
-				if (!popupprogress.getAttribute('max')) popupprogress.setAttribute('max', bigvideo.duration);
+//				if (!popupprogress.getAttribute('max')) {
+                    if(bigvideo.readyState > 0){
+                    }
+                    popupprogress.setAttribute('max', bigvideo.duration);
+//                    popupprogress.setAttribute('max', 100);
+//                }
 				popupprogress.value = bigvideo.currentTime;
 				popupprogressBar.style.width = Math.floor((bigvideo.currentTime / bigvideo.duration) * 100) + '%';
                 
-                console.log(popupprogress.value);
+            
 			});
 
-			// React to the user clicking within the progress bar
+//			// React to the user clicking within the progress bar
+//			popupprogress.addEventListener('click', function(e) {
+//				//var pos = (e.pageX  - this.offsetLeft) / this.offsetWidth; // Also need to take the parent into account here as .controls now has position:relative
+//				var pos = (e.pageX  - (this.offsetLeft + this.offsetParent.offsetLeft)) / this.offsetWidth;
+//				bigvideo.currentTime = pos * bigvideo.duration;
+//			});
+    // React to the user clicking within the progress bar
+    
 			popupprogress.addEventListener('click', function(e) {
-				//var pos = (e.pageX  - this.offsetLeft) / this.offsetWidth; // Also need to take the parent into account here as .controls now has position:relative
-				var pos = (e.pageX  - (this.offsetLeft + this.offsetParent.offsetLeft)) / this.offsetWidth;
+               
+				var pos = (e.pageX  - (this.offsetLeft + document.getElementById('popup-video').offsetLeft)) / this.offsetWidth;
 				bigvideo.currentTime = pos * bigvideo.duration;
 			});
 

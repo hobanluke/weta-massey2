@@ -399,8 +399,8 @@ p {
 }
 
 .carousel-cell.is-selected img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     opacity: 1;
     transition: .6s ease;
     -webkit-transition: .6s ease;
@@ -614,6 +614,8 @@ p {
 
 
 .carousel2 {
+    top: 0%;
+    position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -639,11 +641,17 @@ p {
     -moz-transition: 1s ease;
 }
 
+  .carousel-item  img {
+    width: 100%;
+  }
+
+/*
 @media screen and ( min-width: 768px ) {
   .carousel-item  img {
     width: 100%;
   }
 }
+*/
 
 .carousel-item.is-selected img {
     opacity: 1;
@@ -855,11 +863,38 @@ p {
     top: 0;
     clear: both;
     top: 25px;
-/*
-    border: 1px solid #a89778;
-    border-width: 1px 0px 0px 0px;
-*/
 }
+
+
+
+.mobile{
+    display: none;
+    visibility: hidden;
+}
+
+.desktop{
+    display: block;
+    visibility: visible;
+}
+
+.mobile h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 35px;
+    font-size: 28px;
+    line-height: 35px;
+    color: #777;
+    
+}
+
+.mobile p{
+    width: 400px;
+    margin-top: 5px;
+    min-height: 100px;
+    color: #777;
+}
+
+
 
 
 
@@ -876,12 +911,7 @@ p {
     position: relative;
     margin-top: 50px;
     width: 1360px;
-    padding-left: 40px;
-/*
-    border: 1px solid #222;
-    border-width: 1px 0px 1px 0px;
-*/
-    
+    padding-left: 40px; 
 }
 
 .Industry h2{
@@ -919,7 +949,7 @@ p {
 
 #bootcamp-image{
     cursor: pointer;
-    opacity: .25;
+    opacity: .5;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); 
     transition: 0.3s ease;
@@ -928,17 +958,17 @@ p {
 }
 
 #bootcamp-image:hover{
-    opacity: .75;
+    opacity: 1;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;    
 }
 
 #bootcamp-image.open{
-    opacity: .75;
+    opacity: 1;
 } 
 #bootcamp-image.close{
-    opacity: .25;
+    opacity: .5;
 }
 
 #bootcamp-title{
@@ -982,7 +1012,7 @@ p {
 
 #supervisor-image{
     cursor: pointer;
-    opacity: .25;
+    opacity: .5;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); 
     transition: 0.3s ease;
@@ -991,17 +1021,17 @@ p {
 }
 
 #supervisor-image:hover{
-    opacity: .75;
+    opacity: 1;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;    
 }
 
 #supervisor-image.close{
-    opacity: .25;
+    opacity: .5;
 }
 #supervisor-image.open{
-    opacity: .75;
+    opacity: 1;
 }
 #supervisor-title{
     color: #777;
@@ -1045,7 +1075,7 @@ p {
 
 #internship-image{
     cursor: pointer;
-    opacity: .25;
+    opacity: .5;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); 
     transition: 0.3s ease;
@@ -1054,18 +1084,18 @@ p {
 }
 
 #internship-image:hover{
-    opacity: .75;
+    opacity: 1;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;    
 }
 
 #internship-image.close{
-    opacity: .25;
+    opacity: .5;
 }
 
 #internship-image.open{
-    opacity: .75;
+    opacity: 1;
 }
 
 #internship-title{
@@ -1608,7 +1638,6 @@ p {
     box-shadow: 
         inset 0px 11px 8px -10px #111,
         inset 0px -11px 8px -10px #111; 
-    height: 570px;
     position: relative;
     background: #222;
     clear: both;
@@ -1762,6 +1791,7 @@ video {
     margin-left: -50px;
     position: absolute;
     bottom: -1px;
+    pointer-events: none;
 }
 
 
@@ -1907,7 +1937,6 @@ progress[value]::-webkit-progress-bar {
     cursor: pointer;
 }
 
-
 .popup video{
     -webkit-box-shadow: 0 0 200px rgba(0, 0, 0, 1);
     box-shadow: 0 0 200px rgba(0, 0, 0, 1);
@@ -1916,12 +1945,15 @@ progress[value]::-webkit-progress-bar {
 #popup-video-container {
     margin: 0 auto;
     position: fixed;
-    width: 70%;
+    width: 100%;
     height: auto;
-    max-width: 75%;
+    max-width: 100%;
     float: left;
-    left: 15%;
-    margin-top: 125px;
+    left: 50%;
+/*    margin-top: 125px;*/
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     z-index: 16;    
 }
 
@@ -1964,6 +1996,7 @@ progress[value]::-webkit-progress-bar {
     bottom: -1px;
     margin-left: -25px;
     padding-right: 2px;
+    pointer-events: none;
 }
 
 .popup-controls .popup-progress {
@@ -2029,62 +2062,6 @@ progress[value]::-webkit-progress-bar {
     content: url(../assets/images/logos/play.svg)
 }
 
-/*
-
-.popup-controls, .popup-controls > * {
-	padding:0;
-	margin:0;
-}
-.popup-controls {
-	background:transparent;
-	width:100%;
-	position:relative;
-}
-
-.popup-controls .popup-progress {
-	cursor: pointer;
-    margin-left: 50px;
-    margin-bottom: 3px;
-	width: 95%;
-}
-
-.popup-controls progress {
-	display:block;
-	width: 92%;
-	height: 2px;
-	border:none;
-	overflow:hidden;
-	border-radius:2px;
-	color:#a89778; 
-}
-.popup-controls progress[data-state="fake"] {
-	background:#777;
-	height:65%;
-}
-.popup-controls progress span {
-	width:0%;
-	height:100%;
-	display:inline-block;
-	background-color:#a89778;	
-}
-
-.popup-controls progress::-moz-progress-bar {
-	background-color:#a89778;
-}
- Chrome requires its own rule for this, otherwise it ignores it 
-.popup-controls progress::-webkit-progress-value {
-	background-color:#a89778;
-}
-
-progress[value]::-webkit-progress-bar {
-  background-color: #ddd;
-}
-*/
-
-
-
-
-
 
 
 
@@ -2124,7 +2101,7 @@ progress[value]::-webkit-progress-bar {
     float: left;
 }
 
-@media (min-width:768px) {
+@media (min-width:999px) {
     #small-video-container {
         max-width: 30%;
     }
@@ -2166,7 +2143,7 @@ progress[value]::-webkit-progress-bar {
     float: left;
 }
 
-@media (min-width:768px) {
+@media (min-width:999px) {
     #small-video-container2 {
         max-width: 30%;
     }
@@ -2206,7 +2183,7 @@ progress[value]::-webkit-progress-bar {
     float: left;
 }
 
-@media (min-width:768px) {
+@media (min-width:999px) {
     #small-video-container3 {
         max-width: 30%;
     }
