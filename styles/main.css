@@ -2270,11 +2270,12 @@ progress[value]::-webkit-progress-bar {
     position: relative;
     clear: both;
     border: 2px solid #777;
-    border-width: 0px 0px 1px 0px; 
+    border-width: 1px 0px 1px 0px; 
 }
 
 .massey img{
     width: 100%;
+    margin-top: 1px;
     position: relative;
     opacity: .65;
     border: 2px solid #222;
