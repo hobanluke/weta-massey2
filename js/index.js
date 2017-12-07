@@ -125,18 +125,29 @@ $(document).keyup(function(e) {
     $('#popup-play-pause').addClass("popup-icon-pause");    
 });
 
+
+
 $(".small-video-container").click(function(){
     $("#popup-video").attr("src","assets/videos/weta-showreel.ogv").attr("src","assets/videos/weta-showreel.webm").attr("src","assets/videos/weta-showreel.mp4").attr('poster',"assets/videos/weta-showreel.jpg");
+    
+    $("#title-change").text("Watch our showreel");
+    $("#subheading-change").text("");  
     
 });
 
 $(".small-video-container2").click(function(){
     $("#popup-video").attr("src","assets/videos/blade-runner-2049.ogv").attr("src","assets/videos/blade-runner-2049.webm").attr("src","assets/videos/blade-runner-2049.mp4").attr('poster',"assets/videos/blade-runner-2049.jpg");
     
+    $("#title-change").text("Blade Runner 2049");
+    $("#subheading-change").text("Weta Workshop making minatures");    
+    
 });
 
 $(".small-video-container3").click(function(){
     $("#popup-video").attr("src","assets/videos/ghost-in-the-shell.ogv").attr("src","assets/videos/ghost-in-the-shell.webm").attr("src","assets/videos/ghost-in-the-shell.mp4").attr('poster',"assets/videos/ghost-in-the-shell.jpg");
+
+    $("#title-change").text("Ghost In The Shell");
+    $("#subheading-change").text("Weta Workshop behind the scenes");      
     
 });
 
